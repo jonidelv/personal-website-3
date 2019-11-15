@@ -1,0 +1,245 @@
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  box-sizing: border-box
+}
+
+*,
+:after,
+:before {
+  box-sizing: inherit
+}
+
+body {
+  margin: 0
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block
+}
+
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  vertical-align: baseline
+}
+
+audio:not([controls]) {
+  display: none;
+  height: 0
+}
+
+[hidden],
+template {
+  display: none
+}
+
+a {
+  background-color: transparent
+}
+
+a:active,
+a:hover {
+  outline: 0
+}
+
+abbr[title] {
+  border-bottom: 1px dotted
+}
+
+b,
+strong {
+  font-weight: 700
+}
+
+dfn {
+  font-style: italic
+}
+
+h1 {
+  font-size: 2em;
+  margin: .67em 0
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  padding-bottom: 100px
+}
+
+a {
+  text-decoration: none
+}
+
+p {
+  color: #555;
+  line-height: 150%
+}
+
+#header {
+  align-items: center;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  padding: 20vh 0;
+  position: relative;
+  text-align: center;
+  width: 100vw
+}
+
+#header:after {
+  bottom: 16px;
+  color: #aaa;
+  content: "👇 there's more! ✍️ 💁‍♂️ 🚀 📮";
+  font-size: 14px;
+  letter-spacing: -1px;
+  position: absolute
+}
+
+#header.has-scrolled:after {
+  opacity: 0;
+  transition: opacity .5s ease-in-out .5s
+}
+
+#header-inside {
+  padding: 0 16px;
+  position: relative;
+  z-index: 1
+}
+
+#title {
+  color: #222;
+  letter-spacing: -2px;
+  margin-top: 0
+}
+
+#web-description {
+  color: #444;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: -.5px;
+  line-height: 1.5;
+  padding: 0 20px;
+  word-wrap: break-word
+}
+
+#web-description strong {
+  color: #111;
+  font-weight: 600
+}
+
+#web-description a {
+  color: #09f;
+  transition: all .3s ease
+}
+
+#web-description a:hover {
+  text-decoration: underline
+}
+
+#logo {
+  background-size: cover;
+  background-image: url("./assets/logo.jpeg");
+  border-radius: 50%;
+  display: inline-block;
+  height: 128px;
+  margin: 0 auto 16px;
+  width: 128px
+}
+
+#links {
+  display: block;
+  max-width: 500px;
+  margin: 0 auto
+}
+
+#links a {
+  opacity: .65;
+  transition: opacity .3s ease
+}
+
+#links a:hover {
+  opacity: 1
+}
+
+#links a:hover svg {
+  fill: #09f
+}
+
+#links svg {
+  fill: #333;
+  height: 36px;
+  margin: 0 1%;
+  transition: fill .3s ease;
+  width: 36px
+}
+
+.particles-js-canvas-el {
+  top: 0;
+  left: 0;
+  position: absolute;
+  z-index: 0
+}
+
+footer {
+  text-align: center;
+  color: rgba(0, 0, 0, .44);
+  font-size: 12px;
+  font-weight: 100;
+  line-height: 1.1;
+  padding: 50px 0
+}
+
+h2 {
+  color: #555;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 1.5;
+  letter-spacing: -2px;
+  margin: 48px 0 8px
+}
+
+.block {
+  display: flex
+}
+
+.block-content {
+  margin: 0 auto;
+  max-width: 768px;
+  padding: 0 16px;
+  width: 100%
+}
+
+.block a {
+  color: #09f
+}
+
+.block a:hover {
+  text-decoration: underline
+}
+
+.fade-font {
+  font-weight: 500;
+  opacity: .75
+}
+
+.experiencia {
+  display: block;
+  margin-bottom: 25px;
+  line-height: 150%
+}

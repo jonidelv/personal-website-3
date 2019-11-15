@@ -1,0 +1,11 @@
+{
+  "name": "jonidelv-website",
+  "version": "1.0.0",
+  "description": "personal website",
+  "main": "index.js",
+  "author": "jonidelv",
+  "license": "MIT",
+  "scripts": {
+    "deploy": "./scripts/deploy.sh"
+  }
+}
