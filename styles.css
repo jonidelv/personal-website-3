@@ -154,7 +154,7 @@ p {
 
 #logo {
   background-size: cover;
-  background-image: url("./assets/logo.jpeg");
+  background-image: url("./assets/logo.jpg");
   border-radius: 50%;
   display: inline-block;
   height: 128px;
