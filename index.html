@@ -1,285 +1,450 @@
 <!DOCTYPE html>
 <html lang="es">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./assets/favicon2.ico" />
 
-  <!-- Favicon -->
-  <link rel="shortcut icon" href="./assets/favicon2.ico">
-  
-  <!-- Title -->
-  <title>jonidelv</title>
-  
-  <!-- Search Engine -->
-  <meta name="description" content="Web Developer" />
-  
-  <!-- Schema.org for Google -->
-  <meta itemprop="name" content="Jonatan del Valle" />
-  <meta itemprop="description" content="Web Developer" />
-  
-  <!-- Twitter -->
-  <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Jonatan del Valle" />
-  <meta name="twitter:description" content="Web Developer" />
-  <meta name="twitter:site" content="@jonidelv" />
-  <meta name="twitter:creator" content="@jonidelv" />
-  
-  <!-- Open Graph general (Facebook, Pinterest & Google+) -->
-  <meta name="og:title" content="Jonatan del Valle" />
-  <meta name="og:description" content="Web Developer" />
-  <meta name="og:url" content="https://jonidelv.me" />
-  <meta name="og:site_name" content="Jonatan del Valle" />
-  <meta name="og:type" content="website" />
-  
-  <meta name="HandheldFriendly" content="True">
-  <meta name="MobileOptimized" content="320">
-  <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1,user-scalable=0">
-  <link type="text/css" rel="stylesheet" href="./styles.css">
-</head>
+    <!-- Title -->
+    <title>jonidelv</title>
 
-<body data-gr-c-s-loaded="true">
-  <header id="header" itemscope="" itemtype="https://schema.org/WPHeader">
-    <div id="header-inside">
-      <div class="lamp">
-        <img src="/assets/lamp.png">
+    <!-- Search Engine -->
+    <meta name="description" content="Web Developer" />
+
+    <!-- Schema.org for Google -->
+    <meta itemprop="name" content="Jonatan del Valle" />
+    <meta itemprop="description" content="Web Developer" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Jonatan del Valle" />
+    <meta name="twitter:description" content="Web Developer" />
+    <meta name="twitter:site" content="@jonidelv" />
+    <meta name="twitter:creator" content="@jonidelv" />
+
+    <!-- Open Graph general (Facebook, Pinterest & Google+) -->
+    <meta name="og:title" content="Jonatan del Valle" />
+    <meta name="og:description" content="Web Developer" />
+    <meta name="og:url" content="https://jonidelv.me" />
+    <meta name="og:site_name" content="Jonatan del Valle" />
+    <meta name="og:type" content="website" />
+
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="MobileOptimized" content="320" />
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1.0,maximum-scale=1,user-scalable=0"
+    />
+    <link type="text/css" rel="stylesheet" href="./styles.css" />
+  </head>
+
+  <body data-gr-c-s-loaded="true">
+    <header id="header" itemscope="" itemtype="https://schema.org/WPHeader">
+      <div id="header-inside">
+        <div class="lamp">
+          <img src="/assets/lamp.png" />
+        </div>
+        <h1 id="title">Jonatan del Valle</h1>
+        <!-- <figure id="logo"></figure> -->
+        <div class="subheading">
+          Software Engineer, Frontend, Entrepreneur. Maker.
+        </div>
+        <p id="web-description" itemprop="description">
+          <span id="hellofy">Hola!</span> I am Jonatan. Passionate about open
+          source and Javascript, especially Nodejs,<br />
+          Electron and React ecosystems. Working with React, Redux, React
+          Native, Vue, Node and Mongo.
+          <br />
+          Previously at <strong>Sony</strong>, <strong>Verizon</strong>,
+          <!-- <br /> -->
+          now at <strong>Metrica Sports</strong>. Follow me on:
+        </p>
+        <section id="links">
+          <a target="_blank" href="https://github.com/jonidelv">
+            <svg x="0px" y="0px" viewBox="0 0 32 32" class="bigg">
+              <g>
+                <path
+                  d="M 16 4 C 9.371094 4 4 9.371094 4 16 C 4 21.300781 7.4375 25.800781 12.207031 27.386719 C 12.808594 27.496094 13.027344 27.128906 13.027344 26.808594 C 13.027344 26.523438 13.015625 25.769531 13.011719 24.769531 C 9.671875 25.492188 8.96875 23.160156 8.96875 23.160156 C 8.421875 21.773438 7.636719 21.402344 7.636719 21.402344 C 6.546875 20.660156 7.71875 20.675781 7.71875 20.675781 C 8.921875 20.761719 9.554688 21.910156 9.554688 21.910156 C 10.625 23.746094 12.363281 23.214844 13.046875 22.910156 C 13.15625 22.132813 13.46875 21.605469 13.808594 21.304688 C 11.144531 21.003906 8.34375 19.972656 8.34375 15.375 C 8.34375 14.0625 8.8125 12.992188 9.578125 12.152344 C 9.457031 11.851563 9.042969 10.628906 9.695313 8.976563 C 9.695313 8.976563 10.703125 8.65625 12.996094 10.207031 C 13.953125 9.941406 14.980469 9.808594 16 9.804688 C 17.019531 9.808594 18.046875 9.941406 19.003906 10.207031 C 21.296875 8.65625 22.300781 8.976563 22.300781 8.976563 C 22.957031 10.628906 22.546875 11.851563 22.421875 12.152344 C 23.191406 12.992188 23.652344 14.0625 23.652344 15.375 C 23.652344 19.984375 20.847656 20.996094 18.175781 21.296875 C 18.605469 21.664063 18.988281 22.398438 18.988281 23.515625 C 18.988281 25.121094 18.976563 26.414063 18.976563 26.808594 C 18.976563 27.128906 19.191406 27.503906 19.800781 27.386719 C 24.566406 25.796875 28 21.300781 28 16 C 28 9.371094 22.628906 4 16 4 Z "
+                ></path>
+              </g>
+            </svg>
+          </a>
+          <a target="_blank" href="https://twitter.com/jonidelv">
+            <svg x="0px" y="0px" viewBox="0 0 50 50">
+              <g>
+                <path
+                  d="M 50.0625 10.4375 C 48.214844 11.257813 46.234375 11.808594 44.152344 12.058594 C 46.277344 10.785156 47.910156 8.769531 48.675781 6.371094 C 46.691406 7.546875 44.484375 8.402344 42.144531 8.863281 C 40.269531 6.863281 37.597656 5.617188 34.640625 5.617188 C 28.960938 5.617188 24.355469 10.21875 24.355469 15.898438 C 24.355469 16.703125 24.449219 17.488281 24.625 18.242188 C 16.078125 17.8125 8.503906 13.71875 3.429688 7.496094 C 2.542969 9.019531 2.039063 10.785156 2.039063 12.667969 C 2.039063 16.234375 3.851563 19.382813 6.613281 21.230469 C 4.925781 21.175781 3.339844 20.710938 1.953125 19.941406 C 1.953125 19.984375 1.953125 20.027344 1.953125 20.070313 C 1.953125 25.054688 5.5 29.207031 10.199219 30.15625 C 9.339844 30.390625 8.429688 30.515625 7.492188 30.515625 C 6.828125 30.515625 6.183594 30.453125 5.554688 30.328125 C 6.867188 34.410156 10.664063 37.390625 15.160156 37.472656 C 11.644531 40.230469 7.210938 41.871094 2.390625 41.871094 C 1.558594 41.871094 0.742188 41.824219 -0.0585938 41.726563 C 4.488281 44.648438 9.894531 46.347656 15.703125 46.347656 C 34.617188 46.347656 44.960938 30.679688 44.960938 17.09375 C 44.960938 16.648438 44.949219 16.199219 44.933594 15.761719 C 46.941406 14.3125 48.683594 12.5 50.0625 10.4375 Z "
+                ></path>
+              </g>
+            </svg>
+          </a>
+          <a target="_blank" href="https://www.linkedin.com/in/delvallejonatan">
+            <svg x="0px" y="0px" viewBox="0 0 26 26">
+              <g>
+                <path
+                  d="M 21.125 0 L 4.875 0 C 2.183594 0 0 2.183594 0 4.875 L 0 21.125 C 0 23.816406 2.183594 26 4.875 26 L 21.125 26 C 23.816406 26 26 23.816406 26 21.125 L 26 4.875 C 26 2.183594 23.816406 0 21.125 0 Z M 8.039063 22.070313 L 4 22.070313 L 3.976563 9.976563 L 8.015625 9.976563 Z M 5.917969 8.394531 L 5.894531 8.394531 C 4.574219 8.394531 3.722656 7.484375 3.722656 6.351563 C 3.722656 5.191406 4.601563 4.3125 5.945313 4.3125 C 7.289063 4.3125 8.113281 5.191406 8.140625 6.351563 C 8.140625 7.484375 7.285156 8.394531 5.917969 8.394531 Z M 22.042969 22.070313 L 17.96875 22.070313 L 17.96875 15.5 C 17.96875 13.910156 17.546875 12.828125 16.125 12.828125 C 15.039063 12.828125 14.453125 13.558594 14.171875 14.265625 C 14.066406 14.519531 14.039063 14.867188 14.039063 15.222656 L 14.039063 22.070313 L 9.945313 22.070313 L 9.921875 9.976563 L 14.015625 9.976563 L 14.039063 11.683594 C 14.5625 10.875 15.433594 9.730469 17.519531 9.730469 C 20.105469 9.730469 22.039063 11.417969 22.039063 15.046875 L 22.039063 22.070313 Z "
+                ></path>
+              </g>
+            </svg>
+          </a>
+          <a href="mailto:hi@jonidelv.me?subject=Mail from jonatan webpage">
+            <svg viewBox="0 0 24 24" class="bigg">
+              <path
+                d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"
+              ></path>
+              <path d="M0 0h24v24H0z" fill="none"></path>
+            </svg>
+          </a>
+        </section>
+
+        <button
+          id="intro-btn"
+          onclick="document.getElementById('me').scrollIntoView({ block: 'start', behavior: 'smooth'})"
+        >
+          Checkout my work
+        </button>
       </div>
-      <h1 id="title">Jonatan del Valle</h1>
-      <!-- <figure id="logo"></figure> -->
-      <div class="subheading">Software Engineer, Frontend, Entrepreneur. Maker.</div>
-      <p id="web-description" itemprop="description">
-        <span id="hellofy">Hola!</span> I am Jonatan. Passionate about open source and Javascript, especially Nodejs,<br />
-        Electron and React ecosystems. Working with React, Redux, React Native, Vue, Node and Mongo.
-        <br />
-        Previously at <strong>Sony</strong>, <strong>Verizon</strong>,
-        <!-- <br /> -->
-        now at <strong>Metrica Sports</strong>. Follow me on:
-      </p>
-      <section id="links">
-        <a target="_blank" href="https://github.com/jonidelv">
-          <svg x="0px" y="0px" viewBox="0 0 32 32" class="bigg">
-            <g>
-              <path
-                d="M 16 4 C 9.371094 4 4 9.371094 4 16 C 4 21.300781 7.4375 25.800781 12.207031 27.386719 C 12.808594 27.496094 13.027344 27.128906 13.027344 26.808594 C 13.027344 26.523438 13.015625 25.769531 13.011719 24.769531 C 9.671875 25.492188 8.96875 23.160156 8.96875 23.160156 C 8.421875 21.773438 7.636719 21.402344 7.636719 21.402344 C 6.546875 20.660156 7.71875 20.675781 7.71875 20.675781 C 8.921875 20.761719 9.554688 21.910156 9.554688 21.910156 C 10.625 23.746094 12.363281 23.214844 13.046875 22.910156 C 13.15625 22.132813 13.46875 21.605469 13.808594 21.304688 C 11.144531 21.003906 8.34375 19.972656 8.34375 15.375 C 8.34375 14.0625 8.8125 12.992188 9.578125 12.152344 C 9.457031 11.851563 9.042969 10.628906 9.695313 8.976563 C 9.695313 8.976563 10.703125 8.65625 12.996094 10.207031 C 13.953125 9.941406 14.980469 9.808594 16 9.804688 C 17.019531 9.808594 18.046875 9.941406 19.003906 10.207031 C 21.296875 8.65625 22.300781 8.976563 22.300781 8.976563 C 22.957031 10.628906 22.546875 11.851563 22.421875 12.152344 C 23.191406 12.992188 23.652344 14.0625 23.652344 15.375 C 23.652344 19.984375 20.847656 20.996094 18.175781 21.296875 C 18.605469 21.664063 18.988281 22.398438 18.988281 23.515625 C 18.988281 25.121094 18.976563 26.414063 18.976563 26.808594 C 18.976563 27.128906 19.191406 27.503906 19.800781 27.386719 C 24.566406 25.796875 28 21.300781 28 16 C 28 9.371094 22.628906 4 16 4 Z ">
-              </path>
-            </g>
-          </svg>
-        </a>
-        <a target="_blank" href="https://twitter.com/jonidelv">
-          <svg x="0px" y="0px" viewBox="0 0 50 50">
-            <g>
-              <path
-                d="M 50.0625 10.4375 C 48.214844 11.257813 46.234375 11.808594 44.152344 12.058594 C 46.277344 10.785156 47.910156 8.769531 48.675781 6.371094 C 46.691406 7.546875 44.484375 8.402344 42.144531 8.863281 C 40.269531 6.863281 37.597656 5.617188 34.640625 5.617188 C 28.960938 5.617188 24.355469 10.21875 24.355469 15.898438 C 24.355469 16.703125 24.449219 17.488281 24.625 18.242188 C 16.078125 17.8125 8.503906 13.71875 3.429688 7.496094 C 2.542969 9.019531 2.039063 10.785156 2.039063 12.667969 C 2.039063 16.234375 3.851563 19.382813 6.613281 21.230469 C 4.925781 21.175781 3.339844 20.710938 1.953125 19.941406 C 1.953125 19.984375 1.953125 20.027344 1.953125 20.070313 C 1.953125 25.054688 5.5 29.207031 10.199219 30.15625 C 9.339844 30.390625 8.429688 30.515625 7.492188 30.515625 C 6.828125 30.515625 6.183594 30.453125 5.554688 30.328125 C 6.867188 34.410156 10.664063 37.390625 15.160156 37.472656 C 11.644531 40.230469 7.210938 41.871094 2.390625 41.871094 C 1.558594 41.871094 0.742188 41.824219 -0.0585938 41.726563 C 4.488281 44.648438 9.894531 46.347656 15.703125 46.347656 C 34.617188 46.347656 44.960938 30.679688 44.960938 17.09375 C 44.960938 16.648438 44.949219 16.199219 44.933594 15.761719 C 46.941406 14.3125 48.683594 12.5 50.0625 10.4375 Z ">
-              </path>
-            </g>
-          </svg>
-        </a>
-        <a target="_blank" href="https://www.linkedin.com/in/delvallejonatan">
-          <svg x="0px" y="0px" viewBox="0 0 26 26">
-            <g>
-              <path
-                d="M 21.125 0 L 4.875 0 C 2.183594 0 0 2.183594 0 4.875 L 0 21.125 C 0 23.816406 2.183594 26 4.875 26 L 21.125 26 C 23.816406 26 26 23.816406 26 21.125 L 26 4.875 C 26 2.183594 23.816406 0 21.125 0 Z M 8.039063 22.070313 L 4 22.070313 L 3.976563 9.976563 L 8.015625 9.976563 Z M 5.917969 8.394531 L 5.894531 8.394531 C 4.574219 8.394531 3.722656 7.484375 3.722656 6.351563 C 3.722656 5.191406 4.601563 4.3125 5.945313 4.3125 C 7.289063 4.3125 8.113281 5.191406 8.140625 6.351563 C 8.140625 7.484375 7.285156 8.394531 5.917969 8.394531 Z M 22.042969 22.070313 L 17.96875 22.070313 L 17.96875 15.5 C 17.96875 13.910156 17.546875 12.828125 16.125 12.828125 C 15.039063 12.828125 14.453125 13.558594 14.171875 14.265625 C 14.066406 14.519531 14.039063 14.867188 14.039063 15.222656 L 14.039063 22.070313 L 9.945313 22.070313 L 9.921875 9.976563 L 14.015625 9.976563 L 14.039063 11.683594 C 14.5625 10.875 15.433594 9.730469 17.519531 9.730469 C 20.105469 9.730469 22.039063 11.417969 22.039063 15.046875 L 22.039063 22.070313 Z ">
-              </path>
-            </g>
-          </svg>
-        </a>
-        <a href="mailto:hi@jonidelv.me?subject=Mail from jonatan webpage">
-          <svg viewBox="0 0 24 24" class="bigg">
-            <path
-              d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z">
-            </path>
-            <path d="M0 0h24v24H0z" fill="none"></path>
-          </svg>
-        </a>
-      </section>
-      
-      <button id="intro-btn" onclick="document.getElementById('me').scrollIntoView({ block: 'start', behavior: 'smooth'})">Checkout my work</button>
-    </div>
-  </header>
-  <section id="me" class="block">
-    <div class="block-content">
-      <h2>stuff I
-        <span class="fade-font">write</span> 📝
-      </h2>
-      <p>
-        <strong>Refs, React and Redux</strong>, use Refs when handling connected components to Redux,
-        <a href="https://gist.github.com/jonidelv/8382a888190d170b1179fd7bdb2d91c4" target="_blank" rel="noopener noreferrer">read more</a>. <br />
+    </header>
+    <section id="me" class="block">
+      <div class="block-content">
+        <h2>stuff I <span class="fade-font">write</span> 📝</h2>
+        <p>
+          <strong>Refs, React and Redux</strong>, use Refs when handling
+          connected components to Redux,
+          <a
+            href="https://gist.github.com/jonidelv/8382a888190d170b1179fd7bdb2d91c4"
+            target="_blank"
+            rel="noopener noreferrer"
+            >read more</a
+          >. <br />
 
-        <strong>React synthetic event</strong>, things to take into account when working with events in React,
-        <a href="https://gist.github.com/jonidelv/4f15e0ce08cdfb1cf65c3d047c2642ba" target="_blank" rel="noopener noreferrer">read more</a>. <br />
+          <strong>React synthetic event</strong>, things to take into account
+          when working with events in React,
+          <a
+            href="https://gist.github.com/jonidelv/4f15e0ce08cdfb1cf65c3d047c2642ba"
+            target="_blank"
+            rel="noopener noreferrer"
+            >read more</a
+          >. <br />
 
-        <strong>Redux store</strong>, how to create the Redux store if we want to consume it from anywhere,
-        <a href="https://gist.github.com/jonidelv/86322a5df0cf370aa5b5f546a8b3bf5d" target="_blank" rel="noopener noreferrer">read more</a>. <br />
+          <strong>Redux store</strong>, how to create the Redux store if we want
+          to consume it from anywhere,
+          <a
+            href="https://gist.github.com/jonidelv/86322a5df0cf370aa5b5f546a8b3bf5d"
+            target="_blank"
+            rel="noopener noreferrer"
+            >read more</a
+          >. <br />
 
-        <strong>Computed properties in React</strong>, achieving computed properties the right way,
-        <a href="https://gist.github.com/jonidelv/6bc6e3f4d30b4b23861734afccec31d6" target="_blank" rel="noopener noreferrer">read more</a>. <br />
+          <strong>Computed properties in React</strong>, achieving computed
+          properties the right way,
+          <a
+            href="https://gist.github.com/jonidelv/6bc6e3f4d30b4b23861734afccec31d6"
+            target="_blank"
+            rel="noopener noreferrer"
+            >read more</a
+          >. <br />
 
-        <strong>Fragments</strong>, use Fragments or its shorthand "<>" to prevent divs,
-        <a href="https://gist.github.com/jonidelv/412099262721f9cee086228611f13bf8" target="_blank" rel="noopener noreferrer">read more</a>. <br />
+          <strong>Fragments</strong>, use Fragments or its shorthand "<>" to
+          prevent divs,
+          <a
+            href="https://gist.github.com/jonidelv/412099262721f9cee086228611f13bf8"
+            target="_blank"
+            rel="noopener noreferrer"
+            >read more</a
+          >. <br />
 
-        <strong>React Portals</strong>, what are Portals? how and when to use it,
-        <a href="https://gist.github.com/jonidelv/ec20fce593c2039da7392970d8a47162" target="_blank" rel="noopener noreferrer">read more</a>. <br />
+          <strong>React Portals</strong>, what are Portals? how and when to use
+          it,
+          <a
+            href="https://gist.github.com/jonidelv/ec20fce593c2039da7392970d8a47162"
+            target="_blank"
+            rel="noopener noreferrer"
+            >read more</a
+          >. <br />
 
-        <strong>Functional components to Pure</strong>, transform a React functional component into to pure,
-        <a href="https://gist.github.com/jonidelv/bdfc2b2a7808c77fcdcca68417c58675" target="_blank" rel="noopener noreferrer">read more</a>. <br />
+          <strong>Functional components to Pure</strong>, transform a React
+          functional component into to pure,
+          <a
+            href="https://gist.github.com/jonidelv/bdfc2b2a7808c77fcdcca68417c58675"
+            target="_blank"
+            rel="noopener noreferrer"
+            >read more</a
+          >. <br />
 
-        <strong>Use of closures In React</strong>, make use of closures in React when handling events,
-        <a href="https://gist.github.com/jonidelv/82f72a22017e974b97eba3fb4c9220a1" target="_blank" rel="noopener noreferrer">read more</a>. <br />
+          <strong>Use of closures In React</strong>, make use of closures in
+          React when handling events,
+          <a
+            href="https://gist.github.com/jonidelv/82f72a22017e974b97eba3fb4c9220a1"
+            target="_blank"
+            rel="noopener noreferrer"
+            >read more</a
+          >. <br />
 
-        <strong>Spread attributes and destructuring props</strong>, how to use spread attributes and destructuring props in React components,
-        <a href="https://gist.github.com/jonidelv/eaf8ea4d017498d6209691e7aebd0f8f" target="_blank" rel="noopener noreferrer">read more</a>. <br />
+          <strong>Spread attributes and destructuring props</strong>, how to use
+          spread attributes and destructuring props in React components,
+          <a
+            href="https://gist.github.com/jonidelv/eaf8ea4d017498d6209691e7aebd0f8f"
+            target="_blank"
+            rel="noopener noreferrer"
+            >read more</a
+          >. <br />
 
-        <strong>Constructor in React components</strong>, constructor in React ES6 class components
-        <a href="https://gist.github.com/jonidelv/52f7753e7288fddff1faff330fd3146a" target="_blank" rel="noopener noreferrer">read more</a>. <br />
+          <strong>Constructor in React components</strong>, constructor in React
+          ES6 class components
+          <a
+            href="https://gist.github.com/jonidelv/52f7753e7288fddff1faff330fd3146a"
+            target="_blank"
+            rel="noopener noreferrer"
+            >read more</a
+          >. <br />
 
-        <strong>React performance</strong>, things to take into account with React and Redux,
-        <a href="https://gist.github.com/jonidelv/8ea56310619943d91fa3e6d075776d38" target="_blank" rel="noopener noreferrer">read more</a>.
+          <strong>React performance</strong>, things to take into account with
+          React and Redux,
+          <a
+            href="https://gist.github.com/jonidelv/8ea56310619943d91fa3e6d075776d38"
+            target="_blank"
+            rel="noopener noreferrer"
+            >read more</a
+          >.
+        </p>
+      </div>
+    </section>
+    <section id="technologies" class="block">
+      <div class="block-content">
+        <h2>talks and <span class="fade-font">presentations</span> 💬</h2>
+        <p>
+          <strong>CSS Positioning</strong>, how to use CSS, main features,
+          <a
+            href="https://slides.com/jonidelv/deck-ebe2ff/fullscreen"
+            target="_blank"
+            rel="noopener noreferrer"
+            >slides</a
+          >. <br />
 
-      </p>
-    </div>
-  </section>
-  <section id="technologies" class="block">
-    <div class="block-content">
-      <h2>talks and
-        <span class="fade-font">presentations</span> 💬
-      </h2>
-      <p>
-        <strong>CSS Positioning</strong>, how to use CSS, main features,
-        <a href="https://slides.com/jonidelv/deck-ebe2ff/fullscreen" target="_blank"
-          rel="noopener noreferrer">slides</a>. <br />
+          <strong>React hooks</strong>, how to use hooks with its bests recipes,
+          <a
+            href="https://slides.com/jonidelv/deck-3/fullscreen"
+            target="_blank"
+            rel="noopener noreferrer"
+            >slides</a
+          >. <br />
 
-        <strong>React hooks</strong>, how to use hooks with its bests recipes,
-        <a href="https://slides.com/jonidelv/deck-3/fullscreen" target="_blank"
-          rel="noopener noreferrer">slides</a>. <br />
-        
-        <strong>React context</strong>, new context API,
-        <a href="https://slides.com/jonidelv/deck-4/fullscreen" target="_blank"
-          rel="noopener noreferrer">slides</a>. <br />
-        
-        <strong>Emotion JS</strong>, why Emotion JS is the best CSS-in-JS lib. for React,
-        <a href="https://slides.com/jonidelv/deck-2/fullscreen" target="_blank"
-          rel="noopener noreferrer">slides</a>. <br />
+          <strong>React context</strong>, new context API,
+          <a
+            href="https://slides.com/jonidelv/deck-4/fullscreen"
+            target="_blank"
+            rel="noopener noreferrer"
+            >slides</a
+          >. <br />
 
-        <strong>Prettier</strong>, advantages and disadvantages,
-        <a href="https://slides.com/jonidelv/css-positioning/fullscreen" target="_blank"
-          rel="noopener noreferrer">slides</a>. <br />
-        
-        <strong>Javascript new features</strong>, top ES6 features,
-        <a href="https://slides.com/jonidelv/deck-1/fullscreen" target="_blank"
-          rel="noopener noreferrer">slides</a>. <br />
-        
-        <strong>Why React</strong>, why choosing React over others frontend frameworks,
-          <a href="https://slides.com/jonidelv/deck/fullscreen" target="_blank"
-            rel="noopener noreferrer">slides</a>. <br />
-      </p>
-    </div>
-  </section>
-  <section id="otras" class="block">
-    <div class="block-content">
-      <h2>tech
-        <span class="fade-font">things</span> <span style="position: relative; top: -1px">👨🏻‍💻</span>
-      </h2>
-      <p>
-        <strong>Tsplay.dev</strong>, (React/TypeScript), generate a short-link for the TypeScript playground,
-        <a href="https://tsplay.dev" target="_blank"
-          rel="noopener noreferrer">see it live</a>. <br />
+          <strong>Emotion JS</strong>, why Emotion JS is the best CSS-in-JS lib.
+          for React,
+          <a
+            href="https://slides.com/jonidelv/deck-2/fullscreen"
+            target="_blank"
+            rel="noopener noreferrer"
+            >slides</a
+          >. <br />
 
-        <strong>Crosstify</strong>, (React/Redux), generate a playlist where the first letter of each song matches the name of the album,
-        <a href="https://jonidelv.github.io/crosstify/" target="_blank"
-          rel="noopener noreferrer">see it live</a>. <br />
-        
-        <strong>JSX to React</strong>, (React), JSX to React live compiler,
-        <a href="https://jonidelv.github.io/jsx-to-react/" target="_blank"
-          rel="noopener noreferrer">see it live</a>. <br />
-        
-        <strong>React and Redux starter</strong>, (React/Redux) open source Yeoman generator,
-        <a href="https://jonidelv.github.io/generator-create-redux-app/" target="_blank"
-          rel="noopener noreferrer">more on Github</a>. <br />
-        
-        <strong>Focus time App</strong>, (React Native), social pomodoro app,
-        <a href="https://appetize.io/embed/5zmrmmgyj75qhzubnbb8jf331m?device=nexus5&scale=75&orientation=portrait&osVersion=7.1&deviceColor=black" target="_blank"
-          rel="noopener noreferrer">see it live</a>. <br />
-        
-        <strong>Monthly Calendar</strong>, (React/Redux), add events and reminder in calendar,
-          <a href="https://jonidelv.github.io/react-monthly-calendar/" target="_blank"
-            rel="noopener noreferrer">see it live</a>. <br />
-        
+          <strong>Prettier</strong>, advantages and disadvantages,
+          <a
+            href="https://slides.com/jonidelv/css-positioning/fullscreen"
+            target="_blank"
+            rel="noopener noreferrer"
+            >slides</a
+          >. <br />
+
+          <strong>Javascript new features</strong>, top ES6 features,
+          <a
+            href="https://slides.com/jonidelv/deck-1/fullscreen"
+            target="_blank"
+            rel="noopener noreferrer"
+            >slides</a
+          >. <br />
+
+          <strong>Why React</strong>, why choosing React over others frontend
+          frameworks,
+          <a
+            href="https://slides.com/jonidelv/deck/fullscreen"
+            target="_blank"
+            rel="noopener noreferrer"
+            >slides</a
+          >. <br />
+        </p>
+      </div>
+    </section>
+    <section id="otras" class="block">
+      <div class="block-content">
+        <h2>
+          tech <span class="fade-font">things</span>
+          <span style="position: relative; top: -1px">👨🏻‍💻</span>
+        </h2>
+        <p>
+          <strong>Tsplay.dev</strong>, (React/TypeScript), generate a short-link
+          for the TypeScript playground,
+          <a href="https://tsplay.dev" target="_blank" rel="noopener noreferrer"
+            >see it live</a
+          >. <br />
+
+          <strong>Subilo</strong>, (React), lets you automate deployments for
+          applications running on VPSs and IoT devices,
+          <a href="https://subilo.io." target="_blank" rel="noopener noreferrer"
+            >see it live</a
+          >. <br />
+
+          <strong>Crosstify</strong>, (React/Redux), generate a playlist where
+          the first letter of each song matches the name of the album,
+          <a
+            href="https://jonidelv.github.io/crosstify/"
+            target="_blank"
+            rel="noopener noreferrer"
+            >see it live</a
+          >. <br />
+
+          <strong>JSX to React</strong>, (React), JSX to React live compiler,
+          <a
+            href="https://jonidelv.github.io/jsx-to-react/"
+            target="_blank"
+            rel="noopener noreferrer"
+            >see it live</a
+          >. <br />
+
+          <strong>React and Redux starter</strong>, (React/Redux) open source
+          Yeoman generator,
+          <a
+            href="https://jonidelv.github.io/generator-create-redux-app/"
+            target="_blank"
+            rel="noopener noreferrer"
+            >more on Github</a
+          >. <br />
+
+          <strong>Focus time App</strong>, (React Native), social pomodoro app,
+          <a
+            href="https://appetize.io/embed/5zmrmmgyj75qhzubnbb8jf331m?device=nexus5&scale=75&orientation=portrait&osVersion=7.1&deviceColor=black"
+            target="_blank"
+            rel="noopener noreferrer"
+            >see it live</a
+          >. <br />
+
+          <strong>Monthly Calendar</strong>, (React/Redux), add events and
+          reminder in calendar,
+          <a
+            href="https://jonidelv.github.io/react-monthly-calendar/"
+            target="_blank"
+            rel="noopener noreferrer"
+            >see it live</a
+          >. <br />
+
           <!-- <strong>Starwars</strong>, (Angular), UI code challenge project,
           <a href="https://starwarsapp.space/#/" target="_blank"
             rel="noopener noreferrer">see it live</a>. <br /> -->
-        
+
           <!-- <strong>California beers</strong>, (Angular), UI code challenge project,
           <a href="https://jonidelv.github.io/california-beers/" target="_blank"
             rel="noopener noreferrer">see more</a>. <br /> -->
-        
-          <strong>UI for FFmpeg CLI</strong>, (Electron/React/Redux), video converter desktop application,
-          <a href="https://github.com/jonidelv/FFmpeg-GUI" target="_blank"
-            rel="noopener noreferrer">more on Github</a>. <br />
-        
-          <strong>Task tracker</strong>, (Electron/React), tracker desktop application,
-          <a href="https://github.com/jonidelv/task-tracker" target="_blank"
-            rel="noopener noreferrer">more on Github</a>. <br />
-        
+
+          <strong>UI for FFmpeg CLI</strong>, (Electron/React/Redux), video
+          converter desktop application,
+          <a
+            href="https://github.com/jonidelv/FFmpeg-GUI"
+            target="_blank"
+            rel="noopener noreferrer"
+            >more on Github</a
+          >. <br />
+
+          <strong>Task tracker</strong>, (Electron/React), tracker desktop
+          application,
+          <a
+            href="https://github.com/jonidelv/task-tracker"
+            target="_blank"
+            rel="noopener noreferrer"
+            >more on Github</a
+          >. <br />
+
           <!-- <strong>Weather App</strong>, (React), code challenge project,
           <a href="https://jonidelv.github.io/weapp/" target="_blank"
             rel="noopener noreferrer">see it live</a>. -->
-      </p>
-    </div>
-  </section>
-  <section id="contacto" class="block">
-    <div class="block-content">
-      <h2>get in
-        <span class="fade-font">touch</span> <span style="position: relative; top: -1px">📬</span>
-      </h2>
-      <p>
-        Let's build something awesome together. I can help or consult about web design and development, UX/UI, startup ideas and kickstarting.
-      </p>
-      <p>Wanna talk? Hit me at twitter <a target="_blank" href="https://twitter.com/jonidelv">@jonidelv</a> or drop me a line if you need my help
-        <a href="mailto:hi@jonidelv.me?subject=Mail from jonatan webpage">hi@jonidelv.me</a>.</p>
-    </div>
-  </section>
-  <script>
-    const cssRule =
+        </p>
+      </div>
+    </section>
+    <section id="contacto" class="block">
+      <div class="block-content">
+        <h2>
+          get in <span class="fade-font">touch</span>
+          <span style="position: relative; top: -1px">📬</span>
+        </h2>
+        <p>
+          Let's build something awesome together. I can help or consult about
+          web design and development, UX/UI, startup ideas and kickstarting.
+        </p>
+        <p>
+          Wanna talk? Hit me at twitter
+          <a target="_blank" href="https://twitter.com/jonidelv">@jonidelv</a>
+          or drop me a line if you need my help
+          <a href="mailto:hi@jonidelv.me?subject=Mail from jonatan webpage"
+            >hi@jonidelv.me</a
+          >.
+        </p>
+      </div>
+    </section>
+    <script>
+      const cssRule =
         "color: rgb(249, 162, 34);" +
         "font-size: 60px;" +
         "font-weight: bold;" +
         "text-shadow: 1px 1px 5px rgb(249, 162, 34);" +
         "filter: dropshadow(color=rgb(249, 162, 34), offx=1, offy=1);";
       console.log("%cHey there 🤙🏻", cssRule);
-  </script>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-84361583-2"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
-    gtag('config', 'UA-84361583-2');
-
-    var Hellofy = {
-      hellos: ['Hello', 'Ciao', 'Salut', 'Hallo', 'Oi', 'Privyét', 'Schalom', 'Hola'],
-      cursor: 1,
-      start: function () {
-        setInterval(function() {
-          Hellofy.changeText();
-        }, 3500);
-      },
-      getText: function() {
-        Hellofy.cursor = Hellofy.cursor + 1;
-        if (Hellofy.cursor === Hellofy.hellos.length) {
-          Hellofy.cursor = 0;
-        }
-        return Hellofy.hellos[Hellofy.cursor]+ '!';
-      },
-      changeText: function() {
-        const element = document.getElementById("hellofy");
-        element.classList.add("fade-out");
-        setTimeout(function(){
-          element.textContent = Hellofy.getText();
-          element.classList.remove("fade-out");
-        }, 800)
+    </script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-84361583-2"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
       }
-    }; 
-  Hellofy.start();
-  </script>
-</body>
+      gtag("js", new Date());
+      gtag("config", "UA-84361583-2");
 
+      var Hellofy = {
+        hellos: [
+          "Hello",
+          "Ciao",
+          "Salut",
+          "Hallo",
+          "Oi",
+          "Privyét",
+          "Schalom",
+          "Hola",
+        ],
+        cursor: 1,
+        start: function () {
+          setInterval(function () {
+            Hellofy.changeText();
+          }, 3500);
+        },
+        getText: function () {
+          Hellofy.cursor = Hellofy.cursor + 1;
+          if (Hellofy.cursor === Hellofy.hellos.length) {
+            Hellofy.cursor = 0;
+          }
+          return Hellofy.hellos[Hellofy.cursor] + "!";
+        },
+        changeText: function () {
+          const element = document.getElementById("hellofy");
+          element.classList.add("fade-out");
+          setTimeout(function () {
+            element.textContent = Hellofy.getText();
+            element.classList.remove("fade-out");
+          }, 800);
+        },
+      };
+      Hellofy.start();
+    </script>
+  </body>
 </html>
